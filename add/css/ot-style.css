@@ -1,0 +1,58 @@
+/**
+* The plugin "Orders Table" styles.
+*/
+
+.ot {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.add {
+	margin-bottom: 10px;
+}
+.add label {
+	display: block;
+	margin-bottom: 20px;
+}
+.add input,
+.add textarea {
+	width: 100%;
+	resize: none;
+}
+.add .submit {
+	display: block; 
+	margin-bottom: 50px;
+}
+
+.ot-post {
+	overflow: hidden;	
+}
+.ot-post tbody {
+	overflow-x: auto;
+	display: block;
+}
+.ot-post th,
+.ot-post td {
+	text-align: center;
+	border: 1px solid #d1d1d1;
+	padding: 5px
+}
+.ot-post .status {
+	min-width: 30px;
+	width: 5%;
+}
+
+.ot-pagination {
+	line-height: 40px;
+}
+.ot-pagination .page-numbers {
+	border: 2px solid #d1d1d1;
+	padding: 5px;
+	margin: 2px;
+}
+.ot-pagination .page-numbers.dots {
+	border: none;
+}
+.ot-pagination .page-numbers.current {
+	border: 2px solid gray;
+}

@@ -1,0 +1,153 @@
+/**
+* The plugin "Orders Table" styles for admin panel.
+*/
+
+.ot {
+	max-width: 1200px;
+	margin: 0 auto;	
+	position: relative;
+}
+.ot * {
+	box-sizing: border-box;
+}
+
+.ot .row {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	position: relative;
+}
+.ot .row .col {
+	width: calc(100%/4);
+}
+
+.ot .tabs-buttons {
+	flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.ot .tabs-buttons .tabs-button {
+	background: #f1f1f1;	
+	border: 1px solid #ddd;
+	border-radius: 3px 3px 0 0;	
+	font-weight: 600;
+	color: #aaa;
+	text-align: center;	
+	padding: 15px 25px;	
+	margin: 0 0 -1px;
+}
+.ot .tabs-buttons .tabs-button.active {
+	background: #fff;	
+	border-top: 1px solid #23282d;
+	border-bottom: 1px solid #fff;	
+	color: #555;
+}
+.ot .tabs-buttons .tabs-button:hover {
+	color: #888;
+	cursor: pointer;
+}
+
+.ot .tabs-content {
+	background: #fff;
+	border: 1px solid #ddd;
+	min-height: 64vh;
+	color: #383838;
+	line-height: 1.5;	
+	display: none;
+	padding: 15px 15px 70px 15px;
+	margin: 0 0 5px;
+	animation: fadeIn 1s both;
+}
+.ot .tabs-content.active {
+	display: block;
+}
+
+.ot .option {
+	padding: 15px 0;
+}
+.ot .option:not(:last-child) {
+	border-bottom: 2px solid #f1f1f1;
+}
+.ot .option > span,
+.ot .extra-fields .col span:nth-child(1) {
+	font-size: 14px;
+	font-weight: 600;
+	color: #23282d;
+	margin-right: 5px;
+}
+.ot label {
+	display: inline-block;
+}
+
+.ot  .extra-fields fieldset {
+	border: 2px groove threedface;
+	padding: 0.35em 0.75em 0.625em 0.75em;
+	margin: 2px 5px 10px 2px;
+	position: relative;
+}
+.ot .extra-fields .move-field {
+	font-size: 20px;
+	position: absolute;
+    top: 0;
+	right: 3%;
+	cursor: move;
+}
+.ot .extra-fields .delete-field {
+	font-size: 25px;
+	position: absolute;
+    top: 0;
+    right: 1%;
+	cursor: pointer;
+}
+.ot .extra-fields .move-field :hover,
+.ot .extra-fields .delete-field:hover {
+	color: #00b9eb;
+}
+.ot .extra-fields .portret-placeholder {
+	border: 1px dashed threedface;
+	margin: 2px 5px 10px 2px;
+}
+
+.ot .submit {
+	position: absolute;
+    right: 1%;	
+    bottom: -1%;
+}
+
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	} to {
+		opacity: 1;
+	}
+}
+
+@media all and (max-width: 1000px) and (min-width: 600px) {
+	.ot .extra .row {
+		align-items: center;
+	}
+	.ot .extra .row .col {
+		width: calc(100%/2);
+		padding: 15px 3px;
+		position: relative;
+	}
+	.ot .extra .row .col:nth-child(1):after {
+		content: '';
+		background: #f1f1f1;
+		width: 200%;
+		height: 2px;
+		display: block;
+		position: absolute;
+		right: -100%;
+		bottom: -5px;
+	}
+}
+@media all and (max-width: 600px) {
+	.ot .extra .row .col {
+		width: 100%;
+		padding: 15px 0;
+	}
+	.ot .extra .row .col:not(.required) {
+		border-bottom: 2px solid #f1f1f1;
+	}
+}

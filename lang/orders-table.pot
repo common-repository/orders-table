@@ -1,0 +1,285 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Orders Table\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-31 19:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-4.9.9"
+
+#: inc/frontend.php:56
+msgid "Add"
+msgstr ""
+
+#: inc/options-page.php:76
+msgid "Add field"
+msgstr ""
+
+#: inc/functions.php:35
+msgid "Add new order"
+msgstr ""
+
+#: inc/functions.php:34
+msgid "Add order"
+msgstr ""
+
+#: inc/functions.php:38
+msgid "All orders"
+msgstr ""
+
+#: inc/frontend.php:90
+msgid "Author"
+msgstr ""
+
+#: inc/frontend.php:113
+msgid "Awaiting Verification"
+msgstr ""
+
+#: inc/functions.php:101 inc/functions.php:124 inc/functions.php:127
+#: inc/functions.php:139
+msgid "Awaiting verification"
+msgstr ""
+
+#: inc/functions.php:58 inc/frontend.php:86
+msgid "Category"
+msgstr ""
+
+#: inc/functions.php:195
+msgid "Checkbox"
+msgstr ""
+
+#: inc/frontend.php:34
+msgid "Content:"
+msgstr ""
+
+#: inc/functions.php:193
+msgid "Data"
+msgstr ""
+
+#: inc/functions.php:33
+msgid "Description order"
+msgstr ""
+
+#: inc/functions.php:79
+msgid "Draft updated order."
+msgstr ""
+
+#: inc/functions.php:194
+msgid "E-mail"
+msgstr ""
+
+#: inc/functions.php:36
+msgid "Edit order"
+msgstr ""
+
+#: inc/options-page.php:14
+msgid "Enanle form add"
+msgstr ""
+
+#: inc/frontend.php:35
+msgid "Enter a order content"
+msgstr ""
+
+#: inc/frontend.php:16
+msgid "Enter a title"
+msgstr ""
+
+#: inc/functions.php:180
+msgid "Extra Field"
+msgstr ""
+
+#: inc/options-page.php:8 inc/options-page.php:64
+msgid "Extra Fields"
+msgstr ""
+
+#: inc/functions.php:201
+msgid "Field front:"
+msgstr ""
+
+#: inc/functions.php:183
+msgid "Field name:"
+msgstr ""
+
+#: inc/functions.php:188
+msgid "Field type:"
+msgstr ""
+
+#: inc/frontend.php:137
+msgid "Guest"
+msgstr ""
+
+#: inc/options-page.php:21
+msgid "Guests can add orders"
+msgstr ""
+
+#: inc/options-page.php:6 inc/options-page.php:12
+msgid "Main options"
+msgstr ""
+
+#: inc/options-page.php:7 inc/options-page.php:33
+msgid "Manage main field"
+msgstr ""
+
+#: inc/functions.php:37
+msgid "New  order"
+msgstr ""
+
+#: inc/frontend.php:173
+msgid "Next »"
+msgstr ""
+
+#: inc/frontend.php:161
+msgid "No orders yet ..."
+msgstr ""
+
+#: inc/functions.php:190
+msgid "Not selected"
+msgstr ""
+
+#: inc/functions.php:192
+msgid "Number"
+msgstr ""
+
+#: inc/options-page.php:28
+msgid "Number posts on page"
+msgstr ""
+
+#: inc/functions.php:352
+msgid "Off"
+msgstr ""
+
+#: inc/functions.php:351
+msgid "On"
+msgstr ""
+
+#: inc/functions.php:209 inc/options-page.php:17 inc/options-page.php:24
+#: inc/options-page.php:38 inc/options-page.php:45 inc/options-page.php:52
+#: inc/options-page.php:59
+msgid "on/off"
+msgstr ""
+
+#: inc/functions.php:75
+msgid "Order  published on the website."
+msgstr ""
+
+#: inc/options-page.php:56
+msgid "Order author"
+msgstr ""
+
+#: inc/options-page.php:49
+msgid "Order category"
+msgstr ""
+
+#: inc/frontend.php:82
+msgid "Order content"
+msgstr ""
+
+#: inc/options-page.php:42
+msgid "Order description"
+msgstr ""
+
+#: inc/functions.php:73
+msgid "Order is updated"
+msgstr ""
+
+#: inc/functions.php:74
+#, php-format
+msgid "Order restored from the editorial: %s"
+msgstr ""
+
+#: inc/functions.php:76
+msgid "Order saved."
+msgstr ""
+
+#: inc/frontend.php:111 inc/frontend.php:113 inc/options-page.php:35
+msgid "Order status"
+msgstr ""
+
+#: inc/functions.php:77
+msgid "Order submitted for review."
+msgstr ""
+
+#: inc/functions.php:70
+msgid "Order updated."
+msgstr ""
+
+#: inc/functions.php:39
+msgid "Orders not found."
+msgstr ""
+
+#. Name of the plugin
+#: inc/functions.php:32 inc/functions.php:41
+msgid "Orders Table"
+msgstr ""
+
+#: inc/functions.php:158
+msgid "Orders table options"
+msgstr ""
+
+#: inc/functions.php:196
+msgid "Range"
+msgstr ""
+
+#: inc/functions.php:206
+msgid "Required?"
+msgstr ""
+
+#: inc/functions.php:78
+#, php-format
+msgid "Scheduled for publication: <strong>%1$s</strong>."
+msgstr ""
+
+#. Author of the plugin
+msgid "Somonator"
+msgstr ""
+
+#: inc/frontend.php:111
+msgid "Success"
+msgstr ""
+
+#: inc/functions.php:191
+msgid "Text"
+msgstr ""
+
+#: inc/functions.php:40
+msgid "The basket does not have the orders."
+msgstr ""
+
+#: inc/functions.php:72
+msgid "The parameter is remove."
+msgstr ""
+
+#: inc/functions.php:71
+msgid "The parameter is updated."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"The plugin allows you to make a convenient order page for your site. It is "
+"perfect for a store, hotel or a simple master of billets. Adjust it as it "
+"should and achieve the desired result."
+msgstr ""
+
+#: inc/frontend.php:79
+msgid "Title"
+msgstr ""
+
+#: inc/frontend.php:15
+msgid "Title:"
+msgstr ""
+
+#: inc/frontend.php:20
+msgid "What do we order?"
+msgstr ""
+
+#: inc/frontend.php:172
+msgid "« Previous"
+msgstr ""
